@@ -8,7 +8,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns= {"/hi", "/home", "/trangchu"})
+@WebServlet(urlPatterns= {"/hi", "/trangchu"})
 public class HomeController extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	
