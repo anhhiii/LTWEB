@@ -82,7 +82,7 @@
 
             <div class="remember-forgot">
                 <label><input type="checkbox" name="remember"> Nhớ tôi</label>
-                <a href="#">Quên mật khẩu?</a>
+                <a href="<%= request.getContextPath() %>/forgotPassword">Quên mật khẩu?</a>
             </div>
 
             <button type="submit" class="login-btn">Đăng nhập</button>

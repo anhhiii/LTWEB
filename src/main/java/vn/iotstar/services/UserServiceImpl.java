@@ -51,4 +51,10 @@ public class UserServiceImpl implements UserService {
     public void insert(User user) {
         userDao.insert(user);
     }
+    
+    @Override
+    public User findByEmail(String email) {
+        return userDao.findByEmail(email);
+    }
+
 }
